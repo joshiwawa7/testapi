@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Translations
+*.mo
+
+# VSCode
+.vscode/
+
+# Virtual environments (common names)
+venv/
+env/
+ENV/
+.venv/
+
+# If this git repo is inside a virtualenv root (not recommended), ignore venv layout
+# (This will keep repo from tracking the Python runtime files in Scripts/, Lib/, etc.)
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# Byte-compiled / distribution artifacts
+*.egg
+*.egg-info/
+*.eggs/
+
+# macOS
+.DS_Store
+
